@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
     else
     {
         fprintf(fw,"纬度,日期,时间,经度,海拔,速度,地面航向\n");
-        printf("结果:%s\n%s\n",a1,a2);
+       // printf("结果:%s\n%s\n",a1,a2);
         while(fscanf(fr,"%s\n%s\n",a1,a2)!=EOF)
         {
             for(i=0;i<6;i++)
